@@ -175,7 +175,7 @@ npm run test:e2e:ui
 - Local-first / self-hosted by design.
 - LocalStorage persistence for local project and review state.
 - No auth / no multi-user mode.
-- `AresCommandCenter.tsx` is currently monolithic and planned for future component extraction.
+- The main dashboard component is currently monolithic and planned for future component extraction.
 - Smoke tests only.
 - Chromium-only Playwright baseline.
 - GitHub Actions not enabled yet.
