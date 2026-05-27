@@ -5991,7 +5991,7 @@ export default function AresCommandCenter() {
   );
   const activeGroupMembers = members[activeProjectGroupId] ?? [];
   const isEnglish = language === "en";
-  const titleText = isEnglish ? "Sydney Console" : "Sydney Console";
+  const titleText = isEnglish ? "Operations Dashboard" : "Operations Dashboard";
   const subtitleText = isEnglish ? "Personal Project Operations Console" : "Personal Project Operations Console";
 
   const openAiSummaryDemoFlow = () => {
