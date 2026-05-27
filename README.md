@@ -2,6 +2,10 @@
 
 Local-first. Self-hosted. Safety-gated. Not a SaaS.
 
+<p align="center">
+  <img src="./public/brand/sydney-console-full-logo.png" alt="Sydney Console logo" width="720" />
+</p>
+
 Sydney Console is a local-first personal project operations console for deciding what to do next across active projects. It brings daily priorities, read-only project context, AI-assisted summaries, and manual review into one dashboard without turning integrations into automatic actions.
 
 Sydney Console is the product surface for local-first project operations; AI-assisted summaries are optional workflow features, not autonomous actions.
