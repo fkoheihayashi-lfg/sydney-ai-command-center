@@ -37,7 +37,7 @@ Public package version: `1.2.1`.
 - `npm run typecheck` passes.
 - Screenshot-safe public demo path exists in README.
 - README, `.env.example`, package version, release note, screenshots, and MIT license are aligned.
-- Public branch cleanup removed internal-only notes from root and internal-history docs.
+- Public-facing documentation was simplified for a clean portfolio release.
 - Smoke tests cover `/dashboard` and the Today / Board / AI Tools / Review surfaces.
 
 ## Known Limitations

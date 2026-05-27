@@ -54,7 +54,7 @@ Sydney Console solves that with one safety-gated local console for focus, review
 
 - Header: local date/time, weather/status context, current focus, and study status.
 - Today: the main action surface for Top 3 priorities, next action, blockers, and focus timer controls.
-- Board: read-only project reality, including the primary Recipe GitHub Project Board and local project status.
+- Board: read-only project reality, including the primary read-only GitHub Project Board and local project status.
 - AI Tools: AI summary draft generation, preview, approval, and manual Discord gate.
 - Review: local memo, review log, and end-of-day wrap-up state.
 
@@ -193,7 +193,4 @@ npm run test:e2e:ui
 
 ## Release Checkpoints
 
-- Current public package version: `1.2.1`
-- `v1.0.0-personal-command-center`
-- `v1.2.0-public-setup-foundation`
-- `v1.2.1-public-qa-foundation`
+- Current public release: v1.2.1 public-ready snapshot.
