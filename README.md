@@ -75,7 +75,7 @@ Sydney Console solves that with one safety-gated local console for focus, review
    npm install
    ```
 
-3. Create local env values:
+3. Set up your local environment:
 
    ```bash
    cp .env.example .env.local
@@ -96,7 +96,7 @@ Sydney Console solves that with one safety-gated local console for focus, review
 
 Use `.env.example` as the source of truth for local environment variables. Copy it to `.env.local`, fill in only the integrations you want to test, and never commit real tokens, webhook URLs, or API keys.
 
-Missing optional env vars should degrade safely into unavailable or configuration-needed states.
+If an optional env var is missing, the relevant panel shows a not-connected placeholder instead of crashing.
 
 GitHub integrations are read-only from the app's perspective.
 
@@ -191,6 +191,6 @@ npm run test:e2e:ui
 - Playwright: local smoke-test foundation.
 - Optional OpenAI / Discord integration: AI draft generation and manual approved posting.
 
-## Release Checkpoints
+## Version
 
-- Current public release: v1.2.1 public-ready snapshot.
+Current public release: `1.2.1`.
